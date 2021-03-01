@@ -19,7 +19,7 @@ public class GTinaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_g_tina);
 
         String[] gtTopics;
-        int[] gtImages = {R.drawable.enchiladas_menu, R.drawable.tuna_menu}; // add images to resources
+        int[] gtImages = {R.drawable.enchiladas_menu,R.drawable.tamales_menu, R.drawable.tuna_menu}; // add images to resources
 
         Resources res = getResources();
 
@@ -39,7 +39,11 @@ public class GTinaActivity extends AppCompatActivity {
                     Intent intent = new Intent(GTinaActivity.this, Enchiladas.class);
                     startActivity(intent);
                 }
-                if (position ==1){
+                if (position == 1){
+                    Intent intent = new Intent(GTinaActivity.this, Tamales.class);
+                    startActivity(intent);
+                }
+                if (position ==2){
                     Intent intent = new Intent(GTinaActivity.this, TunaCasserole.class);
                     startActivity(intent);
                 }

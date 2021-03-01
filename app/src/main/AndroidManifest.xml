@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.generally2.cooboo">
 
     <application
@@ -20,12 +21,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".Enchiladas" />
+        <activity android:name=".Tamales" />
         <activity android:name=".CarrotCake" />
         <activity android:name=".TunaCasserole" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Salmon" />
         <activity android:name=".Spaghetti" />
-        <activity android:name=".BookAdapter" />
+        <activity android:name=".BookAdapter"
+            tools:ignore="Instantiatable" />
         <activity android:name=".Brownies" />
     </application>
 
