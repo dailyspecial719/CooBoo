@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.generally2.cooboo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GBonnieActivity"></activity>
+        <activity android:name=".GIrisActivity" />
+        <activity android:name=".GTinaActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Enchiladas" />
+        <activity android:name=".CarrotCake" />
+        <activity android:name=".TunaCasserole" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Salmon" />
+        <activity android:name=".Spaghetti" />
+        <activity android:name=".BookAdapter" />
+        <activity android:name=".Brownies" />
+    </application>
+
+</manifest>

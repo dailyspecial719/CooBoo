@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">From the Kitchen of</string>
+
+    <string-array name="coo_boo_topics">
+        <item name="grandma tina">Grandma Tina G.</item>
+        <item name="grandma iris">Grandma Iris G.</item>
+        <item name="grandma bonnie">Grandma Bonnie V.</item>
+    </string-array>
+
+    <string-array name="gt_array">
+        <item name="enchiladas">Beef Enchiladas</item>
+        <item name="tuna casserole">Tuna Casserole</item>
+    </string-array>
+
+    <string-array name="gi_array">
+        <item name="carrot cake">Carrot Cake</item>
+    </string-array>
+
+    <string-array name="gb_array">
+        <item name="brownies">Brownies</item>
+    </string-array>
+
+</resources>
