@@ -19,7 +19,7 @@ public class GBonnieActivity extends AppCompatActivity {
         setContentView(R.layout.activity_g_bonnie);
 
         String[] gbTopics;
-        int[] gbImages ={R.drawable.brownie3}; //need recipe pics
+        int[] gbImages ={R.drawable.tortilla_menu}; //need recipe pics
 
         Resources res = getResources();
 
@@ -36,7 +36,7 @@ public class GBonnieActivity extends AppCompatActivity {
                 Toast.makeText(GBonnieActivity.this, "Grandma Bonnie's " +  topic, Toast.LENGTH_LONG).show();
 
                 if (position == 0){
-                    Intent intent = new Intent(GBonnieActivity.this, Brownies.class); //need change recipe. test only
+                    Intent intent = new Intent(GBonnieActivity.this, Tortilla.class); //need change recipe. test only
                     startActivity(intent);
                 }
             }
