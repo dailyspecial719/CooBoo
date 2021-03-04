@@ -19,7 +19,7 @@ public class GIrisActivity extends AppCompatActivity {
         setContentView(R.layout.activity_g_iris);
 
         String[] giTopics;
-        int[] giImages = {R.drawable.carrot_menu, R.drawable.gooey_menu};
+        int[] giImages = {R.drawable.fabulous_pasta_menu, R.drawable.gooey_menu, R.drawable.carrot_menu};
 
         Resources res = getResources();
 
@@ -36,11 +36,15 @@ public class GIrisActivity extends AppCompatActivity {
                 Toast.makeText(GIrisActivity.this, "Grandma Iris's " + topics, Toast.LENGTH_LONG).show();
 
                 if (position == 0){
-                    Intent intent = new Intent(GIrisActivity.this, CarrotCake.class); //need recipe
+                    Intent intent = new Intent(GIrisActivity.this, FabulousPasta.class); //need recipe
                     startActivity(intent);
                 }
                 if (position == 1){
                     Intent intent = new Intent(GIrisActivity.this, GooeyButter.class);
+                    startActivity(intent);
+                }
+                if (position == 2){
+                    Intent intent = new Intent(GIrisActivity.this, CarrotCake.class);
                     startActivity(intent);
 
                 }
