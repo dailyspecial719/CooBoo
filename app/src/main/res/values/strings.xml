@@ -16,6 +16,7 @@
 
     <string-array name="gi_array">
         <item name="carrot cake">Carrot Cake</item>
+        <item name="gooey butter">Gooey Butter Bars</item>
     </string-array>
 
     <string-array name="gb_array">
