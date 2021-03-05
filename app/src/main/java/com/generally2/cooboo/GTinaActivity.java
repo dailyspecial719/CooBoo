@@ -19,7 +19,7 @@ public class GTinaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_g_tina);
 
         String[] gtTopics;
-        int[] gtImages = {R.drawable.enchiladas_menu,R.drawable.tamales_menu, R.drawable.tuna_menu, R.drawable.apple_manu}; // add images to resources
+        int[] gtImages = {R.drawable.enchiladas_menu,R.drawable.tamales_menu, R.drawable.tuna_menu, R.drawable.apple_manu, R.drawable.pb_menu}; // add images to resources
 
         Resources res = getResources();
 
@@ -50,6 +50,11 @@ public class GTinaActivity extends AppCompatActivity {
                 if (position == 3){
                     Intent intent = new Intent(GTinaActivity.this, AppleBread.class);
                     startActivity(intent);
+                }
+                if (position == 4){
+                    Intent intent = new Intent(GTinaActivity.this, PBSquares.class);
+                    startActivity(intent);
+
                 }
 
             }
