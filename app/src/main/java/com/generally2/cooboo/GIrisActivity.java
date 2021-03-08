@@ -19,7 +19,7 @@ public class GIrisActivity extends AppCompatActivity {
         setContentView(R.layout.activity_g_iris);
 
         String[] giTopics;
-        int[] giImages = {R.drawable.fabulous_pasta_menu, R.drawable.gooey_menu, R.drawable.carrot_menu};
+        int[] giImages = {R.drawable.fabulous_pasta_menu, R.drawable.gooey_menu, R.drawable.carrot_menu, R.drawable.mm_bread_menu};
 
         Resources res = getResources();
 
@@ -45,6 +45,10 @@ public class GIrisActivity extends AppCompatActivity {
                 }
                 if (position == 2){
                     Intent intent = new Intent(GIrisActivity.this, CarrotCake.class);
+                    startActivity(intent);
+                }
+                if (position == 3){
+                    Intent intent = new Intent(GIrisActivity.this, MmBread.class);
                     startActivity(intent);
 
                 }
