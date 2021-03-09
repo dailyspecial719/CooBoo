@@ -1,5 +1,6 @@
 package com.generally2.cooboo;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -11,21 +12,22 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class GBonnieActivity extends AppCompatActivity {
+public class GWinnieActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_g_bonnie);
+        setContentView(R.layout.activity_g_winnie);
 
-        String[] gbTopics;
-        int[] gbImages ={R.drawable.tortilla_menu};
+        String[] gwTopics;
+        int[] gwImages = {R.drawable.brownie3};
+
 
         Resources res = getResources();
 
-        gbTopics = res.getStringArray(R.array.gb_array);
+        gwTopics = res.getStringArray(R.array.gw_array);
 
-        ListAdapter myAdapter = new BookAdapter(this, gbTopics, gbImages);
+        ListAdapter myAdapter = new BookAdapter(this, gwTopics, gwImages);
         ListView listView = findViewById(R.id.book_view);
         listView.setAdapter(myAdapter);
 
@@ -33,13 +35,15 @@ public class GBonnieActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String topic = String.valueOf(parent.getItemAtPosition(position));
-                Toast.makeText(GBonnieActivity.this, "Grandma Bonnie's " +  topic, Toast.LENGTH_LONG).show();
+                Toast.makeText(GWinnieActivity.this, "Grandma Winnie's " + topic, Toast.LENGTH_LONG).show();
 
                 if (position == 0){
-                    Intent intent = new Intent(GBonnieActivity.this, Tortilla.class); //need change recipe. test only
+                    Intent intent = new Intent(GWinnieActivity.this, Brownies.class);
                     startActivity(intent);
+
                 }
             }
+
         });
 
     }

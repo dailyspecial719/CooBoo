@@ -5,6 +5,8 @@
         <item name="grandma tina">Grandma Tina G.</item>
         <item name="grandma iris">Grandma Iris G.</item>
         <item name="grandma bonnie">Grandma Bonnie V.</item>
+        <item name="grandma winnie">Grandma Winnie T.</item>
+        <item name="grandma wary">Grandma Mary V.</item>
     </string-array>
 
     <string-array name="gt_array">
@@ -26,5 +28,13 @@
     <string-array name="gb_array">
         <item name="tortillas">Tortillas</item>
     </string-array>
+    <string-array name="gw_array">
+        <item name="brownies">Brownies</item>
+    </string-array>
+
+    <string-array name="gm_array">
+        <item name="brownies">Brownies</item>
+    </string-array>
+
 
 </resources>
