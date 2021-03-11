@@ -10,8 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GMaryActivity"/>
-        <activity android:name=".GWinnieActivity"/>
+        <activity android:name=".GJeanActivity"/>
+        <activity android:name=".GMaryActivity" />
+        <activity android:name=".GWinnieActivity" />
         <activity android:name=".GBonnieActivity" />
         <activity android:name=".GIrisActivity" />
         <activity android:name=".GTinaActivity" />
@@ -28,6 +29,7 @@
         <activity android:name=".ZucchiniMuffin" />
         <activity android:name=".GooeyButter" />
         <activity android:name=".FabulousPasta" />
+        <activity android:name=".WheatBread" />
         <activity android:name=".PBSquares" />
         <activity android:name=".Tortilla" />
         <activity android:name=".Tamales" />

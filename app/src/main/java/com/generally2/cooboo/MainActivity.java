@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         String[] cooBooTopics;
-        int[] cooBooImages = {R.drawable.gt_menu, R.drawable.gi_menu, R.drawable.gb_menu, R.drawable.gw_menu, R.drawable.gm_menu};
+        int[] cooBooImages = {R.drawable.gt_menu, R.drawable.gi_menu, R.drawable.gb_menu, R.drawable.gw_menu, R.drawable.gm_menu, R.drawable.gjj_menu};
 
         Resources res = getResources();
 
@@ -54,7 +54,10 @@ public class MainActivity extends Activity {
                 if (position == 4){
                     Intent intent = new Intent(MainActivity.this, GMaryActivity.class);
                     startActivity(intent);
-
+                }
+                if (position == 5){
+                    Intent intent = new Intent(MainActivity.this, GJeanActivity.class);
+                    startActivity(intent);
                 }
 
             }
