@@ -19,7 +19,7 @@ public class GTinaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_g_tina);
 
         String[] gtTopics;
-        int[] gtImages = {R.drawable.enchiladas_menu,R.drawable.tamales_menu, R.drawable.tuna_menu, R.drawable.apple_manu, R.drawable.pb_menu, R.drawable.zucchini_muffin_menu}; // add images to resources
+        int[] gtImages = {R.drawable.enchiladas_menu,R.drawable.tamales_menu, R.drawable.potato_salad_menu, R.drawable.tuna_menu, R.drawable.apple_manu, R.drawable.pb_menu, R.drawable.zucchini_muffin_menu}; // add images to resources
 
         Resources res = getResources();
 
@@ -43,19 +43,24 @@ public class GTinaActivity extends AppCompatActivity {
                     Intent intent = new Intent(GTinaActivity.this, Tamales.class);
                     startActivity(intent);
                 }
-                if (position == 2){
+                if (position ==2){
+                    Intent intent = new Intent(GTinaActivity.this, PotatoSalad.class);
+                    startActivity(intent);
+
+                }
+                if (position == 3){
                     Intent intent = new Intent(GTinaActivity.this, TunaCasserole.class);
                     startActivity(intent);
                 }
-                if (position == 3){
+                if (position == 4){
                     Intent intent = new Intent(GTinaActivity.this, AppleBread.class);
                     startActivity(intent);
                 }
-                if (position == 4){
+                if (position == 5){
                     Intent intent = new Intent(GTinaActivity.this, PBSquares.class);
                     startActivity(intent);
                 }
-                if (position == 5){
+                if (position == 6){
                     Intent intent = new Intent(GTinaActivity.this, ZucchiniMuffin.class);
                     startActivity(intent);
                 }

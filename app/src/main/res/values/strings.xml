@@ -13,6 +13,7 @@
     <string-array name="gt_array">
         <item name="enchiladas">Beef Enchiladas</item>
         <item name="tamales">Tamales</item>
+        <item name="potato salad">Potato Salad</item>
         <item name="tuna casserole">Tuna Casserole</item>
         <item name="apple nut bread">Apple Nut Bread</item>
         <item name="peanut butter squares">Peanut Butter Squares</item>
@@ -31,7 +32,7 @@
     </string-array>
 
     <string-array name="gw_array">
-        <item name="brownies">Brownies</item>
+        <item name="zucchini bread">Zucchini Bread</item>
     </string-array>
 
     <string-array name="gm_array">

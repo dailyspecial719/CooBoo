@@ -20,7 +20,7 @@ public class GWinnieActivity extends AppCompatActivity {
         setContentView(R.layout.activity_g_winnie);
 
         String[] gwTopics;
-        int[] gwImages = {R.drawable.brownie3};
+        int[] gwImages = {R.drawable.zucchini_bread_menu};
 
 
         Resources res = getResources();
@@ -38,9 +38,8 @@ public class GWinnieActivity extends AppCompatActivity {
                 Toast.makeText(GWinnieActivity.this, "Grandma Winnie's " + topic, Toast.LENGTH_LONG).show();
 
                 if (position == 0){
-                    Intent intent = new Intent(GWinnieActivity.this, Brownies.class);
+                    Intent intent = new Intent(GWinnieActivity.this, ZucchiniBread.class);
                     startActivity(intent);
-
                 }
             }
 

@@ -27,6 +27,8 @@
         <activity android:name=".AppleBread" />
         <activity android:name=".MmBread" />
         <activity android:name=".ZucchiniMuffin" />
+        <activity android:name=".ZucchiniBread" />
+        <activity android:name=".PotatoSalad" />
         <activity android:name=".GooeyButter" />
         <activity android:name=".FabulousPasta" />
         <activity android:name=".WheatBread" />
