@@ -19,7 +19,7 @@ public class GMaryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_g_mary);
 
         String[] gmTopics;
-        int[] gmImages = {R.drawable.brownie3};
+        int[] gmImages = {R.drawable.green_chili_menu, R.drawable.brownie3};
 
         Resources res = getResources();
          gmTopics = res.getStringArray(R.array.gm_array);
@@ -35,9 +35,12 @@ public class GMaryActivity extends AppCompatActivity {
                  Toast.makeText(GMaryActivity.this, "Grandma Mary's " + topic, Toast.LENGTH_LONG).show();
 
                  if (position == 0){
+                     Intent intent = new Intent(GMaryActivity.this, GreenChili.class);
+                     startActivity(intent);
+                 }
+                 if (position == 1){
                      Intent intent = new Intent(GMaryActivity.this, Brownies.class);
                      startActivity(intent);
-
                  }
              }
          });
