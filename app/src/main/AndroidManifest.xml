@@ -30,6 +30,7 @@
         <activity android:name=".ZucchiniBread" />
         <activity android:name=".PotatoSalad" />
         <activity android:name=".GooeyButter" />
+        <activity android:name=".ChipperChamps" />
         <activity android:name=".FabulousPasta" />
         <activity android:name=".WheatBread" />
         <activity android:name=".PBSquares" />

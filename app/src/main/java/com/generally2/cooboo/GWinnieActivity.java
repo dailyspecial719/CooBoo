@@ -20,7 +20,7 @@ public class GWinnieActivity extends AppCompatActivity {
         setContentView(R.layout.activity_g_winnie);
 
         String[] gwTopics;
-        int[] gwImages = {R.drawable.zucchini_bread_menu};
+        int[] gwImages = {R.drawable.zucchini_bread_menu, R.drawable.apple_manu};
 
 
         Resources res = getResources();
@@ -39,6 +39,10 @@ public class GWinnieActivity extends AppCompatActivity {
 
                 if (position == 0){
                     Intent intent = new Intent(GWinnieActivity.this, ZucchiniBread.class);
+                    startActivity(intent);
+                }
+                if (position == 1){
+                    Intent intent = new Intent(GWinnieActivity.this, AppleBread.class);
                     startActivity(intent);
                 }
             }
