@@ -12,6 +12,7 @@
 
     <string-array name="gt_array">
         <item name="enchiladas">Beef Enchiladas</item>
+        <item name="gonzo guacamole">Gonzo Guacamole</item>
         <item name="tamales">Tamales</item>
         <item name="potato salad">Potato Salad</item>
         <item name="tuna casserole">Tuna Casserole</item>
