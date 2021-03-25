@@ -32,6 +32,7 @@
         <activity android:name=".FluffSalad" />
         <activity android:name=".GooeyButter" />
         <activity android:name=".SoftCaramels" />
+        <activity android:name=".Calabacitas" />
         <activity android:name=".ChipperChamps" />
         <activity android:name=".GreenChili" />
         <activity android:name=".Guacamole" />

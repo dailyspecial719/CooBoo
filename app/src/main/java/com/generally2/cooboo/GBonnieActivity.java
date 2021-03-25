@@ -19,7 +19,7 @@ public class GBonnieActivity extends AppCompatActivity {
         setContentView(R.layout.activity_g_bonnie);
 
         String[] gbTopics;
-        int[] gbImages ={R.drawable.tortilla_menu};
+        int[] gbImages ={R.drawable.tortilla_menu, R.drawable.calabacitas_menu};
 
         Resources res = getResources();
 
@@ -37,6 +37,10 @@ public class GBonnieActivity extends AppCompatActivity {
 
                 if (position == 0){
                     Intent intent = new Intent(GBonnieActivity.this, Tortilla.class); //need change recipe. test only
+                    startActivity(intent);
+                }
+                if(position == 1){
+                    Intent intent = new Intent(GBonnieActivity.this, Calabacitas.class);
                     startActivity(intent);
                 }
             }

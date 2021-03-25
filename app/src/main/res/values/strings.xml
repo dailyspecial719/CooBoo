@@ -32,6 +32,7 @@
 
     <string-array name="gb_array">
         <item name="tortillas">Tortillas</item>
+        <item name="calabacitas">Calabacitas con Etole</item>
     </string-array>
 
     <string-array name="gw_array">
